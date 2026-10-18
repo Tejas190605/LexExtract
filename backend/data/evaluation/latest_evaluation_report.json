@@ -1,0 +1,1215 @@
+{
+  "benchmark_summary": {
+    "dataset_name": "LexExtract Curated Legal Benchmark Corpus (v1.0)",
+    "total_documents": 12,
+    "execution_timestamp": "2026-10-07T02:47:36Z",
+    "total_execution_time_seconds": 2.639
+  },
+  "performance": {
+    "average_time_ms": 133.1,
+    "min_time_ms": 98.25,
+    "max_time_ms": 152.13,
+    "avg_keyword_time_ms": 81.7,
+    "avg_entity_time_ms": 51.4
+  },
+  "keyword_evaluation": {
+    "micro": {
+      "precision": 0.125,
+      "recall": 0.2326,
+      "f1": 0.1626
+    },
+    "macro": {
+      "precision": 0.125,
+      "recall": 0.2237,
+      "f1": 0.1599
+    },
+    "top_k_cutoffs": {
+      "k_5": {
+        "k": 5,
+        "precision": 0.2167,
+        "recall": 0.0924,
+        "f1": 0.1292
+      },
+      "k_10": {
+        "k": 10,
+        "precision": 0.1583,
+        "recall": 0.1404,
+        "f1": 0.1484
+      },
+      "k_20": {
+        "k": 20,
+        "precision": 0.125,
+        "recall": 0.2237,
+        "f1": 0.1599
+      }
+    },
+    "ablation_comparison": {
+      "tfidf": {
+        "precision": 0.1375,
+        "recall": 0.2558,
+        "f1": 0.1789
+      },
+      "rake": {
+        "precision": 0.0167,
+        "recall": 0.031,
+        "f1": 0.0217
+      },
+      "hybrid": {
+        "precision": 0.125,
+        "recall": 0.2326,
+        "f1": 0.1626
+      }
+    }
+  },
+  "entity_evaluation": {
+    "micro": {
+      "precision": 0.3879,
+      "recall": 0.6855,
+      "f1": 0.4955
+    },
+    "macro": {
+      "precision": 0.3833,
+      "recall": 0.6899,
+      "f1": 0.4893
+    }
+  },
+  "document_results": [
+    {
+      "document_id": "doc_01",
+      "title": "Commercial Lease Agreement",
+      "genre": "Commercial Contract",
+      "word_count": 316,
+      "processing_time_ms": 152.13,
+      "keyword_metrics": {
+        "precision": 0.25,
+        "recall": 0.3846,
+        "f1": 0.303,
+        "predicted_count": 20,
+        "gold_count": 13,
+        "tp": 5,
+        "fp": 15,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.6,
+            "recall": 0.2308,
+            "f1": 0.3333,
+            "tp": 3,
+            "fp": 2,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.3,
+            "recall": 0.2308,
+            "f1": 0.2609,
+            "tp": 3,
+            "fp": 7,
+            "fn": 10
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.25,
+            "recall": 0.3846,
+            "f1": 0.303,
+            "tp": 5,
+            "fp": 15,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.3077,
+        "recall": 0.6154,
+        "f1": 0.4103,
+        "predicted_count": 26,
+        "gold_count": 13,
+        "tp": 8,
+        "fp": 18,
+        "fn": 6
+      }
+    },
+    {
+      "document_id": "doc_02",
+      "title": "Employment Agreement & Confidentiality Covenant",
+      "genre": "Employment Law",
+      "word_count": 238,
+      "processing_time_ms": 113.21,
+      "keyword_metrics": {
+        "precision": 0.25,
+        "recall": 0.3846,
+        "f1": 0.303,
+        "predicted_count": 20,
+        "gold_count": 13,
+        "tp": 5,
+        "fp": 15,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.6,
+            "recall": 0.2308,
+            "f1": 0.3333,
+            "tp": 3,
+            "fp": 2,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.4,
+            "recall": 0.3077,
+            "f1": 0.3478,
+            "tp": 4,
+            "fp": 6,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.25,
+            "recall": 0.3846,
+            "f1": 0.303,
+            "tp": 5,
+            "fp": 15,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.3684,
+        "recall": 0.875,
+        "f1": 0.5185,
+        "predicted_count": 19,
+        "gold_count": 8,
+        "tp": 7,
+        "fp": 12,
+        "fn": 1
+      }
+    },
+    {
+      "document_id": "doc_03",
+      "title": "Delhi High Court Arbitration Section 11 Judgment",
+      "genre": "Judicial Decision",
+      "word_count": 270,
+      "processing_time_ms": 125.12,
+      "keyword_metrics": {
+        "precision": 0.15,
+        "recall": 0.2727,
+        "f1": 0.1935,
+        "predicted_count": 20,
+        "gold_count": 11,
+        "tp": 3,
+        "fp": 17,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.4,
+            "recall": 0.1818,
+            "f1": 0.25,
+            "tp": 2,
+            "fp": 3,
+            "fn": 9
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.2,
+            "recall": 0.1818,
+            "f1": 0.1905,
+            "tp": 2,
+            "fp": 8,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.15,
+            "recall": 0.2727,
+            "f1": 0.1935,
+            "tp": 3,
+            "fp": 17,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.4667,
+        "recall": 0.7778,
+        "f1": 0.5833,
+        "predicted_count": 30,
+        "gold_count": 18,
+        "tp": 14,
+        "fp": 16,
+        "fn": 4
+      }
+    },
+    {
+      "document_id": "doc_04",
+      "title": "Supreme Court Criminal Acquittal Order",
+      "genre": "Criminal Jurisprudence",
+      "word_count": 295,
+      "processing_time_ms": 133.07,
+      "keyword_metrics": {
+        "precision": 0.1,
+        "recall": 0.1818,
+        "f1": 0.129,
+        "predicted_count": 20,
+        "gold_count": 11,
+        "tp": 2,
+        "fp": 18,
+        "fn": 9,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.4,
+            "recall": 0.1818,
+            "f1": 0.25,
+            "tp": 2,
+            "fp": 3,
+            "fn": 9
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.2,
+            "recall": 0.1818,
+            "f1": 0.1905,
+            "tp": 2,
+            "fp": 8,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.1,
+            "recall": 0.1818,
+            "f1": 0.129,
+            "tp": 2,
+            "fp": 18,
+            "fn": 9
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.5455,
+        "recall": 0.75,
+        "f1": 0.6316,
+        "predicted_count": 22,
+        "gold_count": 16,
+        "tp": 12,
+        "fp": 10,
+        "fn": 4
+      }
+    },
+    {
+      "document_id": "doc_05",
+      "title": "Mutual Non-Disclosure Agreement",
+      "genre": "Intellectual Property / NDA",
+      "word_count": 259,
+      "processing_time_ms": 146.07,
+      "keyword_metrics": {
+        "precision": 0.15,
+        "recall": 0.25,
+        "f1": 0.1875,
+        "predicted_count": 20,
+        "gold_count": 12,
+        "tp": 3,
+        "fp": 17,
+        "fn": 9,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.2,
+            "recall": 0.0833,
+            "f1": 0.1176,
+            "tp": 1,
+            "fp": 4,
+            "fn": 11
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.1,
+            "recall": 0.0833,
+            "f1": 0.0909,
+            "tp": 1,
+            "fp": 9,
+            "fn": 11
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.15,
+            "recall": 0.25,
+            "f1": 0.1875,
+            "tp": 3,
+            "fp": 17,
+            "fn": 9
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.3158,
+        "recall": 0.75,
+        "f1": 0.4444,
+        "predicted_count": 19,
+        "gold_count": 8,
+        "tp": 6,
+        "fp": 13,
+        "fn": 2
+      }
+    },
+    {
+      "document_id": "doc_06",
+      "title": "Arbitration Invocation Legal Notice",
+      "genre": "Legal Notice / Dispute Resolution",
+      "word_count": 281,
+      "processing_time_ms": 143.55,
+      "keyword_metrics": {
+        "precision": 0.05,
+        "recall": 0.1111,
+        "f1": 0.069,
+        "predicted_count": 20,
+        "gold_count": 9,
+        "tp": 1,
+        "fp": 19,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 9
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 10,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.05,
+            "recall": 0.1111,
+            "f1": 0.069,
+            "tp": 1,
+            "fp": 19,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.4348,
+        "recall": 0.8333,
+        "f1": 0.5714,
+        "predicted_count": 23,
+        "gold_count": 12,
+        "tp": 10,
+        "fp": 13,
+        "fn": 2
+      }
+    },
+    {
+      "document_id": "doc_07",
+      "title": "Term Loan Agreement & Equitable Mortgage",
+      "genre": "Banking & Finance",
+      "word_count": 273,
+      "processing_time_ms": 144.27,
+      "keyword_metrics": {
+        "precision": 0.1,
+        "recall": 0.2,
+        "f1": 0.1333,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 2,
+        "fp": 18,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.1,
+            "recall": 0.1,
+            "f1": 0.1,
+            "tp": 1,
+            "fp": 9,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.1333,
+            "tp": 2,
+            "fp": 18,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.375,
+        "recall": 0.7059,
+        "f1": 0.4898,
+        "predicted_count": 32,
+        "gold_count": 17,
+        "tp": 12,
+        "fp": 20,
+        "fn": 6
+      }
+    },
+    {
+      "document_id": "doc_08",
+      "title": "State Consumer Commission Refund Order",
+      "genre": "Consumer Protection",
+      "word_count": 285,
+      "processing_time_ms": 147.46,
+      "keyword_metrics": {
+        "precision": 0.15,
+        "recall": 0.3,
+        "f1": 0.2,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 3,
+        "fp": 17,
+        "fn": 7,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.4,
+            "recall": 0.2,
+            "f1": 0.2667,
+            "tp": 2,
+            "fp": 3,
+            "fn": 8
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.3,
+            "recall": 0.3,
+            "f1": 0.3,
+            "tp": 3,
+            "fp": 7,
+            "fn": 7
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.15,
+            "recall": 0.3,
+            "f1": 0.2,
+            "tp": 3,
+            "fp": 17,
+            "fn": 7
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.4583,
+        "recall": 0.6875,
+        "f1": 0.55,
+        "predicted_count": 24,
+        "gold_count": 16,
+        "tp": 11,
+        "fp": 13,
+        "fn": 5
+      }
+    },
+    {
+      "document_id": "doc_09",
+      "title": "Trademark Cease & Desist Infringement Notice",
+      "genre": "Intellectual Property Dispute",
+      "word_count": 264,
+      "processing_time_ms": 141.79,
+      "keyword_metrics": {
+        "precision": 0.1,
+        "recall": 0.2,
+        "f1": 0.1333,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 2,
+        "fp": 18,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1": 0.2,
+            "tp": 2,
+            "fp": 8,
+            "fn": 8
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.1333,
+            "tp": 2,
+            "fp": 18,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.36,
+        "recall": 0.6923,
+        "f1": 0.4737,
+        "predicted_count": 25,
+        "gold_count": 13,
+        "tp": 9,
+        "fp": 16,
+        "fn": 4
+      }
+    },
+    {
+      "document_id": "doc_10",
+      "title": "Companies Digital Disclosure Amendment Ordinance",
+      "genre": "Statutory Legislation",
+      "word_count": 248,
+      "processing_time_ms": 98.25,
+      "keyword_metrics": {
+        "precision": 0.1,
+        "recall": 0.2,
+        "f1": 0.1333,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 2,
+        "fp": 18,
+        "fn": 8,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.1,
+            "recall": 0.1,
+            "f1": 0.1,
+            "tp": 1,
+            "fp": 9,
+            "fn": 9
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.1,
+            "recall": 0.2,
+            "f1": 0.1333,
+            "tp": 2,
+            "fp": 18,
+            "fn": 8
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.4091,
+        "recall": 0.6429,
+        "f1": 0.5,
+        "predicted_count": 22,
+        "gold_count": 14,
+        "tp": 9,
+        "fp": 13,
+        "fn": 5
+      }
+    },
+    {
+      "document_id": "doc_11",
+      "title": "General Power of Attorney Property Deed",
+      "genre": "Property & Agency Deed",
+      "word_count": 268,
+      "processing_time_ms": 129.03,
+      "keyword_metrics": {
+        "precision": 0.05,
+        "recall": 0.1,
+        "f1": 0.0667,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 1,
+        "fp": 19,
+        "fn": 9,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 10,
+            "fn": 10
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.05,
+            "recall": 0.1,
+            "f1": 0.0667,
+            "tp": 1,
+            "fp": 19,
+            "fn": 9
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.1579,
+        "recall": 0.3333,
+        "f1": 0.2143,
+        "predicted_count": 19,
+        "gold_count": 9,
+        "tp": 3,
+        "fp": 16,
+        "fn": 6
+      }
+    },
+    {
+      "document_id": "doc_12",
+      "title": "Partnership Firm Dissolution Deed",
+      "genre": "Commercial Partnership",
+      "word_count": 255,
+      "processing_time_ms": 123.14,
+      "keyword_metrics": {
+        "precision": 0.05,
+        "recall": 0.1,
+        "f1": 0.0667,
+        "predicted_count": 20,
+        "gold_count": 10,
+        "tp": 1,
+        "fp": 19,
+        "fn": 9,
+        "top_k": {
+          "k_5": {
+            "k": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 5,
+            "fn": 10
+          },
+          "k_10": {
+            "k": 10,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 10,
+            "fn": 10
+          },
+          "k_20": {
+            "k": 20,
+            "precision": 0.05,
+            "recall": 0.1,
+            "f1": 0.0667,
+            "tp": 1,
+            "fp": 19,
+            "fn": 9
+          }
+        }
+      },
+      "entity_metrics": {
+        "precision": 0.4,
+        "recall": 0.6154,
+        "f1": 0.4848,
+        "predicted_count": 20,
+        "gold_count": 13,
+        "tp": 8,
+        "fp": 12,
+        "fn": 5
+      }
+    }
+  ],
+  "error_analysis": {
+    "false_positive_keywords_count": 210,
+    "false_negative_keywords_count": 99,
+    "false_positive_entities_count": 161,
+    "false_negative_entities_count": 39,
+    "type_mismatches_count": 11,
+    "sample_fp_keywords": [
+      {
+        "document_id": "doc_01",
+        "keyword": "agreement"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "commercial demised premises"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "demised premises situated"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "demised premises without"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "gurugram"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "lease"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "notice"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "notice pursuant"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "premises"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "premises without"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "premises without prior"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "prior written"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "prior written notice"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "written notice"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "written notice pursuant"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "60 days prior"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "agreement"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "confidential proprietary information"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "days prior written"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "dispute resolution"
+      }
+    ],
+    "sample_fn_keywords": [
+      {
+        "document_id": "doc_01",
+        "keyword": "arbitration"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "covenant"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "indemnity"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "jurisdiction"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "maintenance charges"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "monthly rent"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "security deposit"
+      },
+      {
+        "document_id": "doc_01",
+        "keyword": "termination"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "confidentiality covenant"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "employment agreement"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "gross misconduct"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "jurisdiction"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "non-compete"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "non-solicitation"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "remuneration"
+      },
+      {
+        "document_id": "doc_02",
+        "keyword": "trade secrets"
+      },
+      {
+        "document_id": "doc_03",
+        "keyword": "amicable settlement"
+      },
+      {
+        "document_id": "doc_03",
+        "keyword": "arbitration agreement"
+      },
+      {
+        "document_id": "doc_03",
+        "keyword": "arbitration clause"
+      },
+      {
+        "document_id": "doc_03",
+        "keyword": "arbitration petition"
+      }
+    ],
+    "sample_fp_entities": [
+      {
+        "document_id": "doc_01",
+        "text": "36 months",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "jurisdiction",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "commercial lease agreement",
+        "type": "CONTRACT"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "indemnity",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "three months",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "cyber green",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "sector 44",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "1996",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "dlf",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "this 1st day of october 2026",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "maintenance",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "monthly",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "cyber city developers ltd",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "cyber city",
+        "type": "LOCATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "the 7th day",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "confidentiality covenant",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "employee",
+        "type": "LOCATION"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "12 months",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "horizon software solutions",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "india pvt ltd",
+        "type": "ORGANIZATION"
+      }
+    ],
+    "sample_fn_entities": [
+      {
+        "document_id": "doc_01",
+        "text": "lessor",
+        "type": "LEGAL_ROLE"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "nexus global technologies pvt ltd",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_01",
+        "text": "dlf cyber city developers ltd",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_02",
+        "text": "horizon software solutions india pvt ltd",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_03",
+        "text": "delhi international arbitration centre",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_03",
+        "text": "prateek jalan",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_03",
+        "text": "new delhi",
+        "type": "LOCATION"
+      },
+      {
+        "document_id": "doc_03",
+        "text": "arbitration petition no. 245 of 2026",
+        "type": "CASE_REFERENCE"
+      },
+      {
+        "document_id": "doc_04",
+        "text": "rameshwar yadav",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_04",
+        "text": "indian evidence act",
+        "type": "ACT"
+      },
+      {
+        "document_id": "doc_04",
+        "text": "state of uttar pradesh",
+        "type": "ORGANIZATION"
+      },
+      {
+        "document_id": "doc_05",
+        "text": "maharashtra",
+        "type": "LOCATION"
+      },
+      {
+        "document_id": "doc_05",
+        "text": "10th day of february 2026",
+        "type": "DATE"
+      },
+      {
+        "document_id": "doc_06",
+        "text": "badar durrez ahmed",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_06",
+        "text": "high court of jammu & kashmir",
+        "type": "COURT"
+      },
+      {
+        "document_id": "doc_07",
+        "text": "sarfaesi act",
+        "type": "ACT"
+      },
+      {
+        "document_id": "doc_07",
+        "text": "lender",
+        "type": "LEGAL_ROLE"
+      },
+      {
+        "document_id": "doc_07",
+        "text": "personal guarantor",
+        "type": "LEGAL_ROLE"
+      },
+      {
+        "document_id": "doc_08",
+        "text": "s. p. tavade",
+        "type": "PERSON"
+      },
+      {
+        "document_id": "doc_08",
+        "text": "consumer complaint no. cc/2024/319",
+        "type": "CASE_REFERENCE"
+      }
+    ],
+    "sample_type_mismatches": [
+      {
+        "document_id": "doc_01",
+        "text": "lessee",
+        "predicted_type": "PERSON",
+        "gold_types": [
+          "LEGAL_ROLE"
+        ]
+      },
+      {
+        "document_id": "doc_01",
+        "text": "gurugram",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "LOCATION"
+        ]
+      },
+      {
+        "document_id": "doc_01",
+        "text": "haryana",
+        "predicted_type": "PERSON",
+        "gold_types": [
+          "LOCATION"
+        ]
+      },
+      {
+        "document_id": "doc_04",
+        "text": "indian penal code",
+        "predicted_type": "LAW",
+        "gold_types": [
+          "ACT"
+        ]
+      },
+      {
+        "document_id": "doc_07",
+        "text": "borrower",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "LEGAL_ROLE"
+        ]
+      },
+      {
+        "document_id": "doc_07",
+        "text": "hyderabad",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "LOCATION"
+        ]
+      },
+      {
+        "document_id": "doc_07",
+        "text": "insolvency and bankruptcy code",
+        "predicted_type": "LAW",
+        "gold_types": [
+          "ACT"
+        ]
+      },
+      {
+        "document_id": "doc_08",
+        "text": "pune",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "LOCATION"
+        ]
+      },
+      {
+        "document_id": "doc_08",
+        "text": "sunil deshmukh",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "PERSON"
+        ]
+      },
+      {
+        "document_id": "doc_09",
+        "text": "chennai",
+        "predicted_type": "ORGANIZATION",
+        "gold_types": [
+          "LOCATION"
+        ]
+      },
+      {
+        "document_id": "doc_09",
+        "text": "tamil nadu",
+        "predicted_type": "PERSON",
+        "gold_types": [
+          "LOCATION"
+        ]
+      }
+    ]
+  }
+}

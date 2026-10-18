@@ -1,0 +1,32 @@
+{
+  "document_id": "doc_12",
+  "document_title": "Partnership Firm Dissolution Deed",
+  "genre": "Commercial Partnership",
+  "gold_keywords": [
+    "dissolution of partnership",
+    "deed of dissolution",
+    "continuing partner",
+    "retiring partner",
+    "settlement of capital",
+    "winding up",
+    "indemnity",
+    "public notice",
+    "partnership firm",
+    "goodwill"
+  ],
+  "gold_entities": [
+    { "text": "28th day of February 2026", "type": "DATE" },
+    { "text": "Ahmedabad", "type": "LOCATION" },
+    { "text": "Gujarat", "type": "LOCATION" },
+    { "text": "Rajeshbhai Patel", "type": "PERSON" },
+    { "text": "Continuing Partner", "type": "LEGAL_ROLE" },
+    { "text": "Mukeshbhai Shah", "type": "PERSON" },
+    { "text": "Retiring Partner", "type": "LEGAL_ROLE" },
+    { "text": "Patel & Shah Logistics", "type": "ORGANIZATION" },
+    { "text": "Indian Partnership Act", "type": "ACT" },
+    { "text": "Section 40", "type": "SECTION" },
+    { "text": "Rs. 65,00,000", "type": "MONEY" },
+    { "text": "Central Goods and Services Tax Act", "type": "ACT" },
+    { "text": "Section 72", "type": "SECTION" }
+  ]
+}

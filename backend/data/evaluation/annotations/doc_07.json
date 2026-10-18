@@ -1,0 +1,36 @@
+{
+  "document_id": "doc_07",
+  "document_title": "Term Loan Agreement & Equitable Mortgage",
+  "genre": "Banking & Finance",
+  "gold_keywords": [
+    "term loan agreement",
+    "equitable mortgage",
+    "credit facility",
+    "repayment schedule",
+    "title deeds",
+    "events of default",
+    "personal guarantor",
+    "insolvency resolution",
+    "lender",
+    "borrower"
+  ],
+  "gold_entities": [
+    { "text": "18th March 2026", "type": "DATE" },
+    { "text": "Hyderabad", "type": "LOCATION" },
+    { "text": "Telangana", "type": "LOCATION" },
+    { "text": "State Bank of India", "type": "ORGANIZATION" },
+    { "text": "Lender", "type": "LEGAL_ROLE" },
+    { "text": "Companies Act", "type": "ACT" },
+    { "text": "Borrower", "type": "LEGAL_ROLE" },
+    { "text": "K. V. Subba Rao", "type": "PERSON" },
+    { "text": "Personal Guarantor", "type": "LEGAL_ROLE" },
+    { "text": "Rs. 15,00,00,000", "type": "MONEY" },
+    { "text": "Section 58(f)", "type": "SECTION" },
+    { "text": "Transfer of Property Act", "type": "ACT" },
+    { "text": "Section 13(2)", "type": "SECTION" },
+    { "text": "SARFAESI Act", "type": "ACT" },
+    { "text": "Section 7", "type": "SECTION" },
+    { "text": "Insolvency and Bankruptcy Code", "type": "ACT" },
+    { "text": "National Company Law Tribunal", "type": "COURT" }
+  ]
+}

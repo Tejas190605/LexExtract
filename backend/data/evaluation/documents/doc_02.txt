@@ -1,0 +1,23 @@
+EMPLOYMENT AGREEMENT AND CONFIDENTIALITY COVENANT
+
+This Employment Agreement is entered into on 15th January 2026 at Bengaluru, Karnataka.
+
+BY AND BETWEEN:
+Horizon Software Solutions India Pvt Ltd, a company incorporated under the Companies Act 2013 having its registered office at Whitefield, Bengaluru (the "Employer");
+AND:
+Aditya Narayan, residing at Indiranagar, Bengaluru (the "Employee").
+
+1. APPOINTMENT AND REMUNERATION:
+The Employer appoints the Employee as Lead Architect with an annual Cost to Company of Rs. 36,00,000 payable monthly in accordance with company policy.
+
+2. CONFIDENTIALITY AND PROPRIETARY INFORMATION:
+The Employee acknowledges that during employment, he will have access to confidential proprietary information, intellectual property, trade secrets, and customer data. The Employee agrees not to disclose such proprietary information without prior authorization.
+
+3. NON-COMPETE AND NON-SOLICITATION:
+During the term of employment and for a period of 12 months thereafter, the Employee covenants not to engage in competing business or solicit clients or employees of the Employer within India.
+
+4. TERMINATION AND NOTICE PERIOD:
+Either party may terminate this employment by providing 60 days prior written notice or basic salary in lieu thereof. The Employer may terminate employment immediately without notice in the event of gross misconduct, breach of trust, or violation of non-disclosure covenants.
+
+5. GOVERNING LAW AND DISPUTE RESOLUTION:
+This Agreement shall be governed by the laws of India. Any legal proceedings arising out of this Agreement shall be subject to the exclusive jurisdiction of the competent courts at Bengaluru.

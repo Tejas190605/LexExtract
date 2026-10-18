@@ -1,0 +1,30 @@
+{
+  "document_id": "doc_06",
+  "document_title": "Arbitration Invocation Legal Notice",
+  "genre": "Legal Notice / Dispute Resolution",
+  "gold_keywords": [
+    "legal notice",
+    "invocation of arbitration",
+    "arbitral proceedings",
+    "breach of contract",
+    "sub-contractor",
+    "nominee arbitrator",
+    "withheld payment",
+    "milestone certificate",
+    "arbitration agreement"
+  ],
+  "gold_entities": [
+    { "text": "Section 21", "type": "SECTION" },
+    { "text": "Arbitration and Conciliation Act", "type": "ACT" },
+    { "text": "22nd February 2026", "type": "DATE" },
+    { "text": "Metro Construction Corporation Ltd", "type": "ORGANIZATION" },
+    { "text": "New Delhi", "type": "LOCATION" },
+    { "text": "Singhania & Partners LLP", "type": "ORGANIZATION" },
+    { "text": "Vertex Heavy Engineering Ltd", "type": "ORGANIZATION" },
+    { "text": "Rs. 8,45,00,000", "type": "MONEY" },
+    { "text": "Badar Durrez Ahmed", "type": "PERSON" },
+    { "text": "High Court of Jammu & Kashmir", "type": "COURT" },
+    { "text": "HIGH COURT OF DELHI", "type": "COURT" },
+    { "text": "Section 11(6)", "type": "SECTION" }
+  ]
+}

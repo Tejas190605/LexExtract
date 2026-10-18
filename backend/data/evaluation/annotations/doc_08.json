@@ -1,0 +1,35 @@
+{
+  "document_id": "doc_08",
+  "document_title": "State Consumer Commission Refund Order",
+  "genre": "Consumer Protection",
+  "gold_keywords": [
+    "consumer complaint",
+    "deficiency in service",
+    "occupancy certificate",
+    "vacant possession",
+    "force majeure",
+    "mental harassment",
+    "litigation costs",
+    "refund",
+    "complainant",
+    "opposite party"
+  ],
+  "gold_entities": [
+    { "text": "Consumer Complaint No. CC/2024/319", "type": "CASE_REFERENCE" },
+    { "text": "Sunil Deshmukh", "type": "PERSON" },
+    { "text": "Complainant", "type": "LEGAL_ROLE" },
+    { "text": "Skyline Realty Projects LLP", "type": "ORGANIZATION" },
+    { "text": "Opposite Party", "type": "LEGAL_ROLE" },
+    { "text": "S. P. TAVADE", "type": "PERSON" },
+    { "text": "S. K. KAKADE", "type": "PERSON" },
+    { "text": "Pune", "type": "LOCATION" },
+    { "text": "Rs. 92,50,000", "type": "MONEY" },
+    { "text": "31st December 2023", "type": "DATE" },
+    { "text": "Section 2(11)", "type": "SECTION" },
+    { "text": "Consumer Protection Act", "type": "ACT" },
+    { "text": "Section 47", "type": "SECTION" },
+    { "text": "Supreme Court of India", "type": "COURT" },
+    { "text": "Rs. 1,00,000", "type": "MONEY" },
+    { "text": "Rs. 50,000", "type": "MONEY" }
+  ]
+}

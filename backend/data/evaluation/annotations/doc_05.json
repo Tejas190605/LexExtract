@@ -1,0 +1,29 @@
+{
+  "document_id": "doc_05",
+  "document_title": "Mutual Non-Disclosure Agreement",
+  "genre": "Intellectual Property / NDA",
+  "gold_keywords": [
+    "non-disclosure agreement",
+    "confidential information",
+    "proprietary information",
+    "trade secrets",
+    "disclosing party",
+    "receiving party",
+    "reverse-engineer",
+    "irreparable harm",
+    "injunctive relief",
+    "specific performance",
+    "equitable remedies",
+    "jurisdiction"
+  ],
+  "gold_entities": [
+    { "text": "10th day of February 2026", "type": "DATE" },
+    { "text": "Mumbai", "type": "LOCATION" },
+    { "text": "Maharashtra", "type": "LOCATION" },
+    { "text": "FinTech Ventures Private Limited", "type": "ORGANIZATION" },
+    { "text": "India", "type": "LOCATION" },
+    { "text": "CloudScale Technologies LLC", "type": "ORGANIZATION" },
+    { "text": "New York", "type": "LOCATION" },
+    { "text": "USA", "type": "LOCATION" }
+  ]
+}

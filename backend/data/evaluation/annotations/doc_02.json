@@ -1,0 +1,30 @@
+{
+  "document_id": "doc_02",
+  "document_title": "Employment Agreement & Confidentiality Covenant",
+  "genre": "Employment Law",
+  "gold_keywords": [
+    "employment agreement",
+    "confidentiality covenant",
+    "employer",
+    "employee",
+    "remuneration",
+    "proprietary information",
+    "intellectual property",
+    "trade secrets",
+    "non-compete",
+    "non-solicitation",
+    "notice period",
+    "gross misconduct",
+    "jurisdiction"
+  ],
+  "gold_entities": [
+    { "text": "15th January 2026", "type": "DATE" },
+    { "text": "Bengaluru", "type": "LOCATION" },
+    { "text": "Karnataka", "type": "LOCATION" },
+    { "text": "Horizon Software Solutions India Pvt Ltd", "type": "ORGANIZATION" },
+    { "text": "Companies Act", "type": "ACT" },
+    { "text": "Aditya Narayan", "type": "PERSON" },
+    { "text": "Rs. 36,00,000", "type": "MONEY" },
+    { "text": "India", "type": "LOCATION" }
+  ]
+}

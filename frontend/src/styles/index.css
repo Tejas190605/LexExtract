@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ivory text-charcoal font-sans antialiased text-[15px] leading-relaxed;
+  }
+
+  /* Headings default to clean, high-precision sans-serif */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans text-charcoal tracking-tight font-semibold;
+  }
+
+  /* Specific editorial display classes for prominent legal document names */
+  .font-display, .legal-display {
+    font-family: 'Source Serif 4', Merriweather, Georgia, serif;
+  }
+}
+
+@layer components {
+  /* Subtle legal paper background surface */
+  .paper-surface {
+    @apply bg-white border border-line shadow-subtle;
+  }
+
+  /* Primary Legal Action Button */
+  .btn-primary {
+    @apply inline-flex items-center justify-center space-x-2 px-4 py-2.5 bg-midnight hover:bg-midnight-light text-white text-[14px] font-medium transition-all shadow-subtle active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  /* Secondary Neutral Button */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center space-x-2 px-3.5 py-2 bg-white hover:bg-ivory-subtle border border-line text-charcoal text-[13px] font-medium transition-all shadow-subtle active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  /* Accent Burgundy Button */
+  .btn-accent {
+    @apply inline-flex items-center justify-center space-x-2 px-4 py-2.5 bg-crimson hover:bg-crimson-hover text-white text-[14px] font-medium transition-all shadow-subtle active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  /* Clean Input Field */
+  .input-clean {
+    @apply w-full bg-white border border-line px-3 py-2 text-[14px] text-charcoal placeholder-charcoal-subtle focus:outline-none focus:border-midnight focus:ring-1 focus:ring-midnight/10 transition-colors;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

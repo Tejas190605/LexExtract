@@ -1,0 +1,39 @@
+"""
+Controlled Audit Action Constants for LexExtract Security and Compliance Governance.
+"""
+
+
+class AuditAction:
+    # Authentication & Identity
+    LOGIN_SUCCESS = "LOGIN_SUCCESS"
+    LOGIN_FAILURE = "LOGIN_FAILURE"
+    LOGOUT = "LOGOUT"
+    REGISTER = "REGISTER"
+
+    # Document Lifecycle
+    DOCUMENT_UPLOAD = "DOCUMENT_UPLOAD"
+    DOCUMENT_VIEW = "DOCUMENT_VIEW"
+    DOCUMENT_DELETE = "DOCUMENT_DELETE"
+
+    # Analysis Lifecycle
+    ANALYSIS_START = "ANALYSIS_START"
+    ANALYSIS_COMPLETE = "ANALYSIS_COMPLETE"
+    ANALYSIS_FAILED = "ANALYSIS_FAILED"
+
+    # Data Retrieval
+    KEYWORD_VIEW = "KEYWORD_VIEW"
+    ENTITY_VIEW = "ENTITY_VIEW"
+
+    # Administrative & RBAC
+    USER_CREATED = "USER_CREATED"
+    USER_ROLE_CHANGED = "USER_ROLE_CHANGED"
+    USER_ACTIVATED = "USER_ACTIVATED"
+    USER_DEACTIVATED = "USER_DEACTIVATED"
+
+    # Phase 11 Enhancements
+    DOCUMENT_SEARCH = "DOCUMENT_SEARCH"
+    DOCUMENT_COMPARE = "DOCUMENT_COMPARE"
+    REPORT_EXPORT = "REPORT_EXPORT"
+
+    # Security Violations
+    UNAUTHORIZED_ACCESS = "UNAUTHORIZED_ACCESS"

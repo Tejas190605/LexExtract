@@ -1,0 +1,85 @@
+# ==============================================================================
+# LexExtract — Git Ignore Configuration
+# ==============================================================================
+
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.venv/
+**/.venv/
+**/venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node.js & Frontend dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+dist/
+dist-ssr/
+*.local
+
+# Environment & Secret Variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Local SQLite Database & Storage (never commit runtime user data)
+backend/storage/*.db*
+backend/storage/*.sqlite*
+backend/storage/*.bak*
+backend/storage/uploads_archive*
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Development, IDE & OS artifacts
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+*.log
+
+# Scratch scripts & Agent temporary files
+brain/
+scratch/

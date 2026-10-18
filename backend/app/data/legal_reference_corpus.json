@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ref_contract_01",
+    "title": "Commercial Supply Agreement",
+    "domain": "contract",
+    "text": "This Commercial Supply Agreement is entered into between the Seller and Buyer. The Seller agrees to supply manufactured goods in accordance with the specifications set forth herein. Failure to deliver conforming goods within the stipulated delivery schedule shall constitute a material breach of contract. In the event of default, the non-defaulting party may terminate this agreement upon thirty days written notice. The parties agree that liquidated damages shall apply for delayed delivery. Neither party shall be liable for failure to perform due to events of force majeure. This agreement represents the entire agreement between the parties and supersedes all prior negotiations."
+  },
+  {
+    "id": "ref_employment_02",
+    "title": "Executive Employment Agreement",
+    "domain": "employment",
+    "text": "This Employment Agreement is made between the Employer and the Employee. The Employee shall serve as Senior Legal Counsel and owes a fiduciary duty to the Employer. The Employee agrees to non-compete and non-solicitation covenants during employment and for twelve months following termination. In the event of wrongful termination or severance without cause, the Employee shall be entitled to three months salary in lieu of notice. The Employee shall strictly adhere to internal disciplinary proceedings and code of conduct. All intellectual property created by the Employee in the course of employment shall belong exclusively to the Employer."
+  },
+  {
+    "id": "ref_lease_03",
+    "title": "Commercial Lease Agreement",
+    "domain": "property",
+    "text": "This Deed of Lease is executed between the Lessor and Lessee for the commercial premises. The Lessee agrees to pay the agreed monthly rent on or before the fifth day of each calendar month. The Lessee shall not sublease, assign, or part with possession of the demised premises without prior written consent of the Lessor. In case of non-payment of rent for consecutive months, the Lessor reserves the right of eviction and re-entry. The Lessee shall bear the stamp duty and registration charges associated with this leasehold interest."
+  },
+  {
+    "id": "ref_arbitration_04",
+    "title": "Dispute Resolution and Arbitration Clause",
+    "domain": "arbitration",
+    "text": "Any dispute, claim, or controversy arising out of or in connection with this agreement, including any question regarding its existence, validity, or termination, shall be referred to and finally resolved by arbitration. The arbitral tribunal shall consist of a sole arbitrator appointed mutually by the parties. The seat of arbitration shall be New Delhi and the proceedings shall be conducted under the Arbitration and Conciliation Act. The arbitral award shall be final, binding, and enforceable in any court having competent jurisdiction. The parties agree to bear the costs of arbitration equally unless determined otherwise in the final award."
+  },
+  {
+    "id": "ref_ip_05",
+    "title": "Software License and Trademark Agreement",
+    "domain": "intellectual_property",
+    "text": "The Licensor grants to the Licensee a non-exclusive, non-transferable license to use the proprietary software and associated trademark. The Licensee shall not reverse engineer, decompile, or create derivative works from the software. All copyright, patent claims, trade secret rights, and trade dress remain the exclusive property of the Licensor. Any unauthorized distribution or duplication constitutes copyright infringement. The Licensee agrees to pay royalties quarterly based on net sales. The Licensor disclaims all implied warranties of merchantability and fitness for a particular purpose."
+  },
+  {
+    "id": "ref_nda_06",
+    "title": "Non-Disclosure and Confidentiality Agreement",
+    "domain": "contract",
+    "text": "The Disclosing Party agrees to disclose certain proprietary information to the Receiving Party for evaluating a potential joint venture. The Receiving Party agrees to maintain confidentiality and not to disclose such trade secret information to any third party without written authorization. In the event of an actual or threatened breach of confidentiality, damages alone may not be an adequate remedy, and the Disclosing Party shall be entitled to seek injunctive relief without posting a bond. The obligations of confidentiality shall survive termination of this agreement for five years."
+  },
+  {
+    "id": "ref_litigation_07",
+    "title": "Plaint for Permanent Injunction and Damages",
+    "domain": "litigation",
+    "text": "The Plaintiff files this civil suit against the Defendant seeking a decree of permanent injunction and damages. The Plaintiff has established a prima facie case with balance of convenience in its favor. The Defendant has unlawfully infringed upon the Plaintiff's registered trademark, causing irreparable harm and loss of goodwill. The Plaintiff prays for an interim injunction restraining the Defendant from marketing infringing products. The court has territorial and pecuniary jurisdiction to try and adjudicate this suit under the Civil Procedure Code."
+  },
+  {
+    "id": "ref_legal_notice_08",
+    "title": "Statutory Legal Notice for Dishonour of Cheque",
+    "domain": "procedure",
+    "text": "Under instructions from our client, we hereby serve this statutory legal notice upon you under Section 138 of the Negotiable Instruments Act. A cheque was issued by you towards discharge of a legally enforceable debt. The said cheque was presented for clearance but returned dishonoured by the bank due to insufficient funds. You are hereby called upon to pay the cheque amount within fifteen days of receipt of this notice, failing which our client shall initiate criminal prosecution against you under the relevant provisions of the penal code."
+  },
+  {
+    "id": "ref_criminal_09",
+    "title": "First Information Report and Bail Application",
+    "domain": "criminal",
+    "text": "The Applicant has filed this application for anticipatory bail under the Code of Criminal Procedure in connection with the First Information Report registered for alleged cognizable offences under Section 420 and Section 406 of the Penal Code. The Accused asserts bona fide intentions and contends that the dispute is purely of a civil nature arising from breach of contract. The prosecution has failed to establish mens rea or criminal misappropriation. The Accused undertakes to cooperate fully with the investigation and abide by all conditions imposed by the court."
+  },
+  {
+    "id": "ref_corporate_10",
+    "title": "Share Purchase and Governance Agreement",
+    "domain": "corporate",
+    "text": "This Share Purchase Agreement sets forth terms for the acquisition of equity shares by the Purchaser from the Shareholders. The transaction is subject to completion of satisfactory due diligence and approval by the Board of Directors. The Company represents that it is duly incorporated under the Companies Act and has fulfilled all statutory obligations. The Shareholders warrant that there is no pending litigation or encumbrance affecting title to the shares. The agreement stipulates governance rights, including board representation and quorum requirements for extraordinary general meetings."
+  }
+]

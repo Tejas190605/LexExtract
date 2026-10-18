@@ -1,0 +1,32 @@
+{
+  "document_id": "doc_09",
+  "document_title": "Trademark Cease & Desist Infringement Notice",
+  "genre": "Intellectual Property Dispute",
+  "gold_keywords": [
+    "cease and desist",
+    "trademark infringement",
+    "passing off",
+    "trade dress",
+    "deceptively similar",
+    "registered proprietor",
+    "permanent injunction",
+    "rendition of accounts",
+    "dilution of goodwill",
+    "damages"
+  ],
+  "gold_entities": [
+    { "text": "5th March 2026", "type": "DATE" },
+    { "text": "QuickBite Foods LLP", "type": "ORGANIZATION" },
+    { "text": "Kochi", "type": "LOCATION" },
+    { "text": "Kerala", "type": "LOCATION" },
+    { "text": "BurgerBite Global Brands Inc.", "type": "ORGANIZATION" },
+    { "text": "Chennai", "type": "LOCATION" },
+    { "text": "Tamil Nadu", "type": "LOCATION" },
+    { "text": "Trade Marks Act", "type": "ACT" },
+    { "text": "India", "type": "LOCATION" },
+    { "text": "Section 29", "type": "SECTION" },
+    { "text": "Rs. 15,00,00,000", "type": "MONEY" },
+    { "text": "Section 134", "type": "SECTION" },
+    { "text": "Section 135", "type": "SECTION" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "document_id": "doc_11",
+  "document_title": "General Power of Attorney Property Deed",
+  "genre": "Property & Agency Deed",
+  "gold_keywords": [
+    "power of attorney",
+    "general power of attorney",
+    "principal",
+    "attorney",
+    "absolute owner",
+    "conveyance",
+    "eviction proceeding",
+    "ratification",
+    "tenancy",
+    "sub-registrar"
+  ],
+  "gold_entities": [
+    { "text": "Harish Chandra Varma", "type": "PERSON" },
+    { "text": "New Delhi", "type": "LOCATION" },
+    { "text": "Principal", "type": "LEGAL_ROLE" },
+    { "text": "Meera Varma Sen", "type": "PERSON" },
+    { "text": "Attorney", "type": "LEGAL_ROLE" },
+    { "text": "Municipal Corporation of Delhi", "type": "ORGANIZATION" },
+    { "text": "HIGH COURT OF DELHI", "type": "COURT" },
+    { "text": "Registration Act", "type": "ACT" },
+    { "text": "12th day of February 2026", "type": "DATE" }
+  ]
+}

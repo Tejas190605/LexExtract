@@ -1,0 +1,33 @@
+{
+  "document_id": "doc_10",
+  "document_title": "Companies Digital Disclosure Amendment Ordinance",
+  "genre": "Statutory Legislation",
+  "gold_keywords": [
+    "ordinance",
+    "digital disclosure",
+    "carbon emissions",
+    "corporate governance",
+    "adjudication order",
+    "penalty",
+    "continuing failure",
+    "repeated default",
+    "short title",
+    "commencement"
+  ],
+  "gold_entities": [
+    { "text": "MINISTRY OF LAW AND JUSTICE", "type": "ORGANIZATION" },
+    { "text": "New Delhi", "type": "LOCATION" },
+    { "text": "1st January 2026", "type": "DATE" },
+    { "text": "Republic of India", "type": "LOCATION" },
+    { "text": "Companies Act", "type": "ACT" },
+    { "text": "Article 123", "type": "ARTICLE" },
+    { "text": "Constitution of India", "type": "LAW" },
+    { "text": "Section 134", "type": "SECTION" },
+    { "text": "Central Government", "type": "ORGANIZATION" },
+    { "text": "Rs. 5,00,000", "type": "MONEY" },
+    { "text": "Rs. 50,000", "type": "MONEY" },
+    { "text": "Rs. 1,00,00,000", "type": "MONEY" },
+    { "text": "Registrar of Companies", "type": "ORGANIZATION" },
+    { "text": "Section 454(5)", "type": "SECTION" }
+  ]
+}

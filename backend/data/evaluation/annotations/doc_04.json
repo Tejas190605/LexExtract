@@ -1,0 +1,36 @@
+{
+  "document_id": "doc_04",
+  "document_title": "Supreme Court Criminal Acquittal Order",
+  "genre": "Criminal Jurisprudence",
+  "gold_keywords": [
+    "criminal appeal",
+    "circumstantial evidence",
+    "rigorous imprisonment",
+    "reasonable doubt",
+    "criminal jurisprudence",
+    "conviction",
+    "sentence",
+    "acquitted",
+    "special leave",
+    "appellant",
+    "respondent"
+  ],
+  "gold_entities": [
+    { "text": "SUPREME COURT OF INDIA", "type": "COURT" },
+    { "text": "Criminal Appeal No. 782 of 2025", "type": "CASE_REFERENCE" },
+    { "text": "Rameshwar Yadav", "type": "PERSON" },
+    { "text": "Appellant", "type": "LEGAL_ROLE" },
+    { "text": "State of Uttar Pradesh", "type": "ORGANIZATION" },
+    { "text": "Respondent", "type": "LEGAL_ROLE" },
+    { "text": "Article 136", "type": "ARTICLE" },
+    { "text": "Constitution of India", "type": "LAW" },
+    { "text": "Section 302", "type": "SECTION" },
+    { "text": "Section 34", "type": "SECTION" },
+    { "text": "Indian Penal Code", "type": "ACT" },
+    { "text": "Rs. 25,000", "type": "MONEY" },
+    { "text": "Kapil Sibal", "type": "PERSON" },
+    { "text": "Section 27", "type": "SECTION" },
+    { "text": "Indian Evidence Act", "type": "ACT" },
+    { "text": "Aishwarya Bhati", "type": "PERSON" }
+  ]
+}

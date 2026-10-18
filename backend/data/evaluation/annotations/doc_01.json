@@ -1,0 +1,35 @@
+{
+  "document_id": "doc_01",
+  "document_title": "Commercial Lease Agreement",
+  "genre": "Commercial Contract",
+  "gold_keywords": [
+    "commercial lease agreement",
+    "commercial lease",
+    "lessor",
+    "lessee",
+    "demised premises",
+    "security deposit",
+    "monthly rent",
+    "maintenance charges",
+    "indemnity",
+    "termination",
+    "arbitration",
+    "jurisdiction",
+    "covenant"
+  ],
+  "gold_entities": [
+    { "text": "DLF Cyber City Developers Ltd", "type": "ORGANIZATION" },
+    { "text": "Companies Act", "type": "ACT" },
+    { "text": "Gurugram", "type": "LOCATION" },
+    { "text": "Haryana", "type": "LOCATION" },
+    { "text": "Lessor", "type": "LEGAL_ROLE" },
+    { "text": "Nexus Global Technologies Pvt Ltd", "type": "ORGANIZATION" },
+    { "text": "Lessee", "type": "LEGAL_ROLE" },
+    { "text": "1st October 2026", "type": "DATE" },
+    { "text": "Rs. 4,50,000", "type": "MONEY" },
+    { "text": "Rs. 27,00,000", "type": "MONEY" },
+    { "text": "Section 106", "type": "SECTION" },
+    { "text": "Transfer of Property Act", "type": "ACT" },
+    { "text": "Arbitration and Conciliation Act", "type": "ACT" }
+  ]
+}

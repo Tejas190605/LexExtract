@@ -1,0 +1,26 @@
+MUTUAL NON-DISCLOSURE AND CONFIDENTIALITY AGREEMENT
+
+This Mutual Non-Disclosure Agreement (the "NDA") is made on this 10th day of February 2026 at Mumbai, Maharashtra.
+
+BETWEEN:
+FinTech Ventures Private Limited, a company incorporated in India with its corporate office at Bandra Kurla Complex, Mumbai (the "Disclosing Party");
+AND:
+CloudScale Technologies LLC, a corporation organized under the laws of Delaware, having its registered office in New York, USA (the "Receiving Party").
+
+1. PURPOSE:
+The Parties intend to explore potential collaboration regarding enterprise payment gateways, core banking integrations, and API protocols (the "Authorized Purpose").
+
+2. PROPRIETARY INFORMATION:
+"Confidential Information" shall include all proprietary source code, algorithms, architectural blueprints, financial projections, customer records, and security tokens disclosed directly or indirectly.
+
+3. OBLIGATIONS OF NON-DISCLOSURE:
+The Receiving Party agrees to hold all Confidential Information in strict confidence, exercising at least the standard of care reasonable for trade secrets. The Receiving Party shall not copy, decompile, reverse-engineer, or distribute any part thereof to unauthorized third parties.
+
+4. EXCLUSIONS FROM CONFIDENTIAL TREATMENT:
+Obligations hereunder shall not apply to information that is already publicly known, lawfully received without restriction, or required to be disclosed under subpoena or statutory order of a court of competent jurisdiction.
+
+5. EQUITABLE RELIEF AND LIQUIDATED DAMAGES:
+The Parties acknowledge that unauthorized disclosure causes irreparable harm for which monetary compensation alone is inadequate. Therefore, the Disclosing Party shall be entitled to seek injunctive relief, specific performance, and equitable remedies without posting bond.
+
+6. GOVERNING LAW:
+This Agreement shall be governed by the laws of Maharashtra, India. The courts of Mumbai shall have exclusive jurisdiction.

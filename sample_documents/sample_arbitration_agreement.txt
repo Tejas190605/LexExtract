@@ -1,0 +1,39 @@
+COMMERCIAL ARBITRATION AND DISPUTE RESOLUTION AGREEMENT
+
+This Commercial Arbitration Agreement (the "Agreement") is entered into on this 15th day of November, 2024, at New Delhi, India.
+
+BETWEEN:
+Alpha Tech Solutions Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at Connaught Place, New Delhi (hereinafter referred to as the "First Party");
+
+AND:
+Beta Global Logistics Limited, a corporation incorporated under the laws of Singapore, having its regional commercial office at Bandra Kurla Complex, Mumbai, Maharashtra (hereinafter referred to as the "Second Party").
+
+RECITALS:
+WHEREAS the First Party and the Second Party entered into a Master Procurement and Cloud Services Agreement dated 10th January 2023; and
+WHEREAS disputes have arisen between the parties regarding alleged service level default and liquidated damages amounting to Rs. 75,00,000 (Rupees Seventy Five Lakhs only); and
+WHEREAS the parties mutually desire to submit all disputes and claims to binding commercial arbitration.
+
+NOW THEREFORE IT IS AGREED AS FOLLOWS:
+
+1. SUBMISSION TO ARBITRATION
+All disputes, controversies, or claims arising out of or in connection with the Master Services Agreement shall be referred to and finally resolved by arbitration administered under the Arbitration and Conciliation Act, 1996, and the rules of the Delhi International Arbitration Centre (DIAC).
+
+2. ARBITRAL TRIBUNAL
+The arbitral tribunal shall consist of a sole arbitrator appointed mutually by the parties pursuant to Section 11 of the Arbitration and Conciliation Act, 1996. If the parties fail to agree upon the sole arbitrator within thirty (30) days, either party may approach the High Court of Delhi for such appointment.
+
+3. SEAT AND VENUE
+The seat and venue of the arbitration proceedings shall be New Delhi, India. All hearings and oral arguments shall be conducted in the English language.
+
+4. GOVERNING LAW AND JURISDICTION
+This Agreement shall be governed by, construed, and enforced in accordance with the substantive laws of India. Subject to the arbitration clause, the High Court of Delhi shall have exclusive supervisory jurisdiction over any interim measures or post-award proceedings.
+
+5. COSTS AND EXPENSES
+The costs of the arbitration, including administrative fees and the fees of the arbitral tribunal, shall be shared equally between the parties pending the final arbitral award, unless the tribunal awards costs against a defaulting party.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Agreement by their duly authorized representatives.
+
+For Alpha Tech Solutions Pvt. Ltd.
+Authorized Signatory
+
+For Beta Global Logistics Ltd.
+Authorized Signatory
