@@ -1,8 +1,14 @@
 import axios from 'axios';
 
 const savedApiUrl = typeof window !== 'undefined' ? localStorage.getItem('lexextract_api_base_url') : null;
-let rawBase = savedApiUrl || import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000';
+let rawBase = savedApiUrl || import.meta.env.VITE_API_BASE_URL || 'https://lexextract-backend.onrender.com';
+if (rawBase === 'lexextract-backend' || rawBase === 'https://lexextract-backend' || rawBase === 'http://lexextract-backend') {
+  rawBase = 'https://lexextract-backend.onrender.com';
+}
 if (rawBase && !rawBase.startsWith('http://') && !rawBase.startsWith('https://')) {
+  if (!rawBase.includes('.') && !rawBase.includes(':')) {
+    rawBase = `${rawBase}.onrender.com`;
+  }
   rawBase = `https://${rawBase}`;
 }
 export const API_BASE_URL = rawBase.replace(/\/+$/, '');

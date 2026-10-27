@@ -40,7 +40,4 @@ services:
         value: SAMEORIGIN
     envVars:
       - key: VITE_API_BASE_URL
-        fromService:
-          type: web
-          name: lexextract-backend
-          property: host
+        value: https://lexextract-backend.onrender.com
