@@ -189,7 +189,56 @@ npm install
 
 ---
 
-## 9. Running the Application
+## 9. Live Public Cloud Deployment (Render Free Tier)
+
+LexExtract is deployed and publicly accessible online for academic evaluation without requiring local environment configuration.
+
+| Service Tier | Public URL | Operational Status |
+| :--- | :--- | :--- |
+| **Frontend Web Application** | **[https://lexextract-frontend.onrender.com](https://lexextract-frontend.onrender.com)** | **ONLINE / 200 OK** (Global CDN) |
+| **Backend API Gateway** | **[https://lexextract-backend.onrender.com](https://lexextract-backend.onrender.com)** | **HEALTHY / 200 OK** |
+| **Backend Health Probe** | **[https://lexextract-backend.onrender.com/health](https://lexextract-backend.onrender.com/health)** | **HEALTHY** (`database: connected`) |
+| **Interactive OpenAPI Docs** | **[https://lexextract-backend.onrender.com/docs](https://lexextract-backend.onrender.com/docs)** | **ONLINE** (Swagger UI) |
+
+### Demonstration Credentials (1-Click Login Available)
+
+The live application provides one-click quick-fill credential buttons on the login portal:
+
+| Role | Email / Identifier | Password | Access Privileges |
+| :--- | :--- | :--- | :--- |
+| **Lawyer (USER)** | `demo@lexextract.local` | `User@Lex2026!` | Document upload (.pdf, .docx), legal analysis, clause/entity discovery, search, diff comparison, PDF/JSON export |
+| **Compliance Admin (ADMIN)** | `admin@lexextract.local` | `Admin@Lex2026!` | All user capabilities + Enterprise Audit Ledger & User Directory |
+| **Legal Analyst (ANALYST)** | `analyst@lexextract.local` | `Analyst@Lex2026!` | Advanced intelligence workflows & ASTMA empirical benchmark console |
+
+### Verified Live Deployment Verification Matrix
+
+| Verification Checkpoint | Live Endpoint Tested | Result | Observations |
+| :--- | :--- | :---: | :--- |
+| **1. Operational Health Probe** | `GET /health` | **PASS** | Status `healthy`, Database `connected`, Environment `production`. |
+| **2. API Metadata & Swagger** | `GET /api/v1/`, `GET /docs` | **PASS** | 200 OK, full OpenAPI specification served. |
+| **3. RBAC Authentication** | `POST /api/v1/auth/login` | **PASS** | Verified JWT issuance for USER, ANALYST, and ADMIN roles. |
+| **4. PDF Document Upload** | `POST /api/v1/documents/upload` | **PASS** | Ingested `sample_contract.pdf`, parsed 2 pages, 262 words. |
+| **5. DOCX Document Upload** | `POST /api/v1/documents/upload` | **PASS** | Ingested `01_Employment_Agreement.docx`, parsed 480 words. |
+| **6. Legal Text Extraction** | `GET /api/v1/documents/{id}/text` | **PASS** | Extracted full text stream & structured page offsets. |
+| **7. Keyword Extraction** | `GET /api/v1/analyses/{id}/keywords`| **PASS** | Ranked legal terms (e.g., Intellectual Property, Termination). |
+| **8. Entity Extraction (NER)** | `GET /api/v1/analyses/{id}/entities`| **PASS** | Extracted Parties, Jurisdiction, Dates, and Monetary bounds. |
+| **9. In-Document Search** | `GET /api/v1/documents/{id}/search` | **PASS** | Highlighted sentence offsets and match context for queries. |
+| **10. Document Comparison** | `POST /api/v1/documents/compare` | **PASS** | Generated ASTMA TF-IDF similarity score & clause differences. |
+| **11. Report Export (JSON)** | `GET /api/v1/analyses/{id}/export?format=json` | **PASS** | Valid structured JSON intelligence report download. |
+| **12. Report Export (PDF)** | `GET /api/v1/analyses/{id}/export?format=pdf` | **PASS** | Valid vector PDF document dossier stream. |
+| **13. Administrative Isolation** | `GET /api/v1/users/` | **PASS** | Non-admin practitioners blocked (HTTP 403 Forbidden). |
+| **14. Governance Audit Trail**| `GET /api/v1/admin/audit-logs` | **PASS** | Immutable audit events recorded with client IP tracking. |
+| **15. Responsive Layout** | Desktop & Mobile Viewports | **PASS** | Tested at 1280x800 and 375x812 with clean responsive layout. |
+
+### Free-Tier Operating Characteristics & Storage Notice
+
+1. **Cold Starts**: Render free Web Services spin down after 15 minutes of inactivity. When accessed after sleep, the first request will take ~30–50 seconds to wake up the backend container.
+2. **Ephemeral Disk**: Uploaded files and database alterations persist during instance runtime. On restart or new deployment, the startup lifespan auto-seeder repopulates default accounts and baseline records immediately.
+3. **Zero Billing**: Deployed strictly on free compute and static tiers with no billing or paid services enabled.
+
+---
+
+## 10. Running Locally
 
 ### Start Backend Server
 ```bash
@@ -206,16 +255,6 @@ cd frontend
 npm run dev
 ```
 - Web Application: `http://localhost:5173` (or `http://localhost:5174`)
-
-### Pre-Seeded Demonstration Accounts
-
-For ease of academic review, the following pre-seeded test roles are available:
-
-| Role | Email Identifier | Password | Access Privileges |
-| :--- | :--- | :--- | :--- |
-| **Lawyer (USER)** | `demo@lexextract.local` | `User@Lex2026!` | Document upload, analysis, viewer, search, comparison, PDF export |
-| **Compliance Admin (ADMIN)** | `admin@lexextract.local` | `Admin@Lex2026!` | All user features + Enterprise Audit Ledger, User Directory, RBAC |
-| **Legal Analyst (ANALYST)** | `analyst@lexextract.local` | `Analyst@Lex2026!` | Advanced intelligence analysis and empirical evaluation |
 
 ---
 
