@@ -10,9 +10,16 @@ from app.api.v1.router import api_router
 async def lifespan(app: FastAPI):
     """
     Application lifespan manager ensuring database schema exists upon startup.
+    Also ensures default demonstration accounts and sample data are seeded.
     """
     # Initialize database tables
     init_db()
+    try:
+        from scripts.init_db import seed_database
+        seed_database()
+    except Exception as exc:
+        import logging
+        logging.getLogger(__name__).warning(f"Startup database seed skipped/failed: {exc}")
     yield
 
 
@@ -31,7 +38,7 @@ if settings.BACKEND_CORS_ORIGINS:
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.BACKEND_CORS_ORIGINS,
-        allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$",
+        allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$|^https://.*\.onrender\.com$|^https://.*\.vercel\.app$",
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],

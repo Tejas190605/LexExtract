@@ -1,0 +1,47 @@
+services:
+  # LexExtract Backend Web Service (FastAPI)
+  - type: web
+    name: lexextract-backend
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: ALGORITHM
+        value: HS256
+      - key: PYTHON_VERSION
+        value: 3.11.9
+
+  # LexExtract Frontend Static Site (React/Vite)
+  - type: web
+    name: lexextract-frontend
+    runtime: static
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: lexextract-backend
+          property: host
